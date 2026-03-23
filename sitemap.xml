@@ -5,4 +5,10 @@
 		<ns0:changefreq>weekly</ns0:changefreq>
 		<ns0:priority>1.0</ns0:priority>
 	</ns0:url>
+
+	<ns0:url>
+		<ns0:loc>http://angliport.com/about/</ns0:loc>
+		<ns0:changefreq>monthly</ns0:changefreq>
+		<ns0:priority
+	
 </ns0:urlset>
