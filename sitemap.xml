@@ -9,13 +9,13 @@
 	<ns0:url>
 		<ns0:loc>http://angliport.com/about/</ns0:loc>
 		<ns0:changefreq>monthly</ns0:changefreq>
-		<ns0:priority>0.8</ns0:priority>
+		<ns0:priority>0.9</ns0:priority>
 	</ns0:url>
 
 	<ns0:url>
 		<ns0:loc>http://angliport.com/service-page/english-workshops/</ns0:loc>
 		<ns0:changefreq>weekly</ns0:changefreq>
-		<ns0:priority>0.9</ns0:priority>
+		<ns0:priority>0.8</ns0:priority>
 	</ns0:url>
 
 </ns0:urlset>
