@@ -324,47 +324,28 @@
             </ul></nav>
 
           <!-- Section -->
-          <section>
-            <header class="major">
-              <h2>Get in touch</h2>
-            </header>
-            <ul class="contact">
-              <li>
-                <i class="fa-solid fa-envelope"></i>
-                <span id="obfuscated-email"></span>
-                <script>
-                  document.getElementById("obfuscated-email").innerHTML =
-                    '<a href="mailto:' +
-                    "info" +
-                    "@" +
-                    "barbarasharon.com.au" +
-                    '">' +
-                    "info" +
-                    "@" +
-                    "barbarasharon.com.au" +
-                    "</a>";
-                </script>
-              </li>
-              <li>
-                <i class="fa-solid fa-brands fa-whatsapp"></i>
-                <a aria-label="WhatsApp number" class="obfuscated-phone" id="obfuscated-tel">+61&nbsp;0493&nbsp;837828</a>
-                <script>
-                  (function () {
-                    var p = "+61493837828";
-                    var el = document.getElementById("obfuscated-tel");
-                    if (el)
-                      el.setAttribute(
-                        "href",
-                        "https://wa.me/" + p.replace("+", ""),
-                      );
-                  })();
-                </script>
-              </li>
-              <li>
-                <i class="fa-solid fa-home"></i> Gold Coast<br/>Australia
-              </li>
-            </ul>
-          </section>
+				<section>
+					<header class="major">
+						<h2>Get in touch</h2>
+					</header>
+					<ul class="contact">
+						<li>
+							<i class="fa-solid fa-envelope"></i>
+							<a aria-label="Email Address"
+								href="mailto:info@barbarasharon.com.au?subject=I'm%20interested%20in%20learning%20Portuguese&body=Hi%20Barbara,%0D%0AI%20found%20your%20website%20and%20I'm%20interested%20in%20learning%20Portuguese.%0D%0A"
+								target="_blank">info@barbarasharon.com.au</a>
+						</li>
+						<li>
+							<i class=" fa-solid fa-brands fa-whatsapp"></i>
+							<a aria-label="WhatsApp number"
+								href="https://wa.me/61493837828?text=Hi%20Barbara,%0D%0AI'm%20interested%20in%20learning%20Portuguese.%0D%0A"
+								target="_blank">+61 493 837 828</a>
+						</li>
+						<li>
+							<i class="fa-solid fa-home"></i> Gold Coast<br />Australia
+						</li>
+					</ul>
+				</section>
         </div>
       </div>
     </div>
